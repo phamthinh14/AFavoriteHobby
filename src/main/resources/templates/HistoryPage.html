@@ -3,13 +3,15 @@
 <head>
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no"/>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" type="text/css" href="../static/timeline.css">
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"-->
+    <!--integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"-->
+    <!--crossorigin="anonymous">-->
+    <th:block th:replace="/Home :: importBS">...</th:block>
+    <link rel="stylesheet" type="text/css" href="timeline.css">
 
-    <th:block th:replace="/Home :: importBS"></th:block>
-    <title>Title</title>
+    <title>History</title>
 </head>
 
 <body>
@@ -18,25 +20,31 @@
 
 <div class="container">
     <div class="page-header">
-        <h1 id="timeline">Timeline</h1>
+        <h1 id="timeline">DOTA Development Timeline</h1>
     </div>
     <ul class="timeline">
         <li>
             <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
             <div class="timeline-panel">
                 <div class="timeline-heading">
-                    <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                    <h4 class="timeline-title">The First MOBA - Aeon of Strife</h4>
                     <p>
-                        <small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11 hours ago via Twitter
+                        <small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2002
                         </small>
                     </p>
                 </div>
                 <div class="timeline-body">
-                    <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis
-                        porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros
-                        vermeio, in elementis mé pra quem é amistosis quis leo.
-                        Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci
-                        latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                    <p>To understand the history of DotA, one must begin from Starcraft. In the early days of Starcraft,
+                        there was a Use Map Settings (UMS) map called Aeon of Strife (AoS) made by a modder called
+                        Aeon64 that featured a cooperative game with four heroes facing off against endless waves of
+                        computer-controlled creeps in four lanes. The players would have endless computer-controlled
+                        creeps on their side as well, except these were weaker than the enemy creeps. The familiar game
+                        mechanic of the player who last-hit an enemy unit being rewarded with money can be found in this
+                        map. The game would end once key buildings on either side were destroyed or with the deaths of
+                        all four player-controlled heroes. A second version was made so that four players faced off
+                        against each other in a 2v2 fashion with endless creeps on both teams.</p>
+                    <img src="https://cdn.mmos.com/wp-content/gallery/editorials/SC1-Aeon-of-Strife.jpg"
+                         width="450">
                 </div>
             </div>
         </li>
@@ -44,21 +52,25 @@
             <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
             <div class="timeline-panel">
                 <div class="timeline-heading">
-                    <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                    <h4 class="timeline-title">Warcraft 3: Reign of Chaos</h4>
+                    <p>
+                        <small class="text-muted"><i class="glyphicon glyphicon-time"></i> July 3, 2002
+                        </small>
+                    </p>
                 </div>
                 <div class="timeline-body">
-                    <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis
-                        porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros
-                        vermeio, in elementis mé pra quem é amistosis quis leo.
-                        Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci
-                        latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-                    <p>Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Interagi no mé,
-                        cursus quis, vehicula ac nisi. Aenean vel dui dui. Nullam leo erat, aliquet quis tempus a,
-                        posuere ut mi. Ut scelerisque neque et turpis posuere
-                        pulvinar pellentesque nibh ullamcorper. Pharetra in mattis molestie, volutpat elementum justo.
-                        Aenean ut ante turpis. Pellentesque laoreet mé vel lectus scelerisque interdum cursus velit
-                        auctor. Lorem ipsum dolor sit amet, consectetur adipiscing
-                        elit. Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa.</p>
+                    <p>Once Warcraft 3: Reign of Chaos was released in 2002, Aeon of Strife was ported over to
+                        Reign of Chaos where free of the limitations of the Starcraft map editor, a much more
+                        interesting game could be made. Players could gain experience alongside money, gain levels,
+                        learn more powerful abilities and buy equipment. Many of the game mechanics in modern DotA can
+                        be found in maps from this period.
+                        The first Aeon of Strife-styled map that took advantage of the ability to design custom spells
+                        provided by the powerful Reign of Chaos World Editor was Valley of Dissent made by a modder
+                        called Karukef. Another modder called Eul borrowed some ideas of his predecessors to create an
+                        Aeon of Strife-styled map called Defence of the Ancients (DotA), which would become one of the
+                        most popular UMS maps on Battle.net.</p>
+                    <img src="https://images.g2a.com/newlayout/600x351/1x1x0/bb7824e531f7/59e5bc9f5bafe388fc3cb5f9"
+                         width="450">
                 </div>
             </div>
         </li>
@@ -66,14 +78,25 @@
             <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
             <div class="timeline-panel">
                 <div class="timeline-heading">
-                    <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                    <h4 class="timeline-title">Warcraft 3: The Frozen Throne</h4>
+                    <p>
+                        <small class="text-muted"><i class="glyphicon glyphicon-time"></i> July 1st, 2003
+                        </small>
+                    </p>
                 </div>
                 <div class="timeline-body">
-                    <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis
-                        porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros
-                        vermeio, in elementis mé pra quem é amistosis quis leo.
-                        Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci
-                        latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                    <p>When Warcraft 3: The Frozen Throne came out in 2003, Eul made a version called DotA 2:
+                        Thirst for Gamma in TFT, but it wasn't successful in replacing the original DotA that had been
+                        ported into The Frozen Throne. Eul then disappeared, but not before making his code open-source.
+                        At this time, many people modded the The Frozen Throne version of DotA. These derivatives of
+                        DotA started becoming popular on Battle.net. During this time, DotA wasn't called DotA Allstars,
+                        but instead the EX series. This was the version of DotA optimized by a modder off of the Reign
+                        of Chaos version. Other well-known series were the "DotA DX Series", "DotA Unforgiven" and "DotA
+                        Outland".
+                        These ancient DotA maps led to DotA becoming one of the most popular maps on Battle.net and
+                        created very good conditions for DotA Allstars to flourish on its release.</p>
+                    <img src="https://images.g2a.com/newlayout/323x433/1x1x0/b0f20844b8fe/590db485ae653a7fa13bb712"
+                         width="450">
                 </div>
             </div>
         </li>
