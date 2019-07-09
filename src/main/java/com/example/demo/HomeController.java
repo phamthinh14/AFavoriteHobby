@@ -22,4 +22,22 @@ public class HomeController {
         //Tra ve cai HTML name file thi no se bat cai HTML file do cho minh
         return "Dota1";
     }
+
+    @RequestMapping("/dota2")
+    public String dota2Page() {
+        //Tra ve cai HTML name file thi no se bat cai HTML file do cho minh
+        return "Dota2";
+    }
+
+    @RequestMapping("/achievement")
+    public String achievementPage() {
+        //Tra ve cai HTML name file thi no se bat cai HTML file do cho minh
+        return "Achievement";
+    }
+
+    @RequestMapping("/contact")
+    public String contactPage() {
+        //Tra ve cai HTML name file thi no se bat cai HTML file do cho minh
+        return "Contact";
+    }
 }

@@ -1,17 +1,49 @@
-.card {
+/*.card {*/
+/*width: 50rem;*/
+/*height: 60rem;*/
+/*!* Added *!*/
+/*float: none; !* Added *!*/
+/*!* Added *!*/
+/*margin: 0 auto 10px;*/
+/*!*size: auto;*!*/
+/*}*/
+.card-1 {
     width: 50rem;
     height: 40rem;
     /* Added */
     float: none; /* Added */
     /* Added */
     margin: 0 auto 10px;
-    /*size: auto;*/
 }
+
+.card-2 {
+    width: 50rem;
+    height: 50rem;
+    /* Added */
+    float: none; /* Added */
+    /* Added */
+    margin: 0 auto 10px;
+}
+
+.card-3 {
+    width: 50rem;
+    height: 50rem;
+    /* Added */
+    float: none; /* Added */
+    /* Added */
+    margin: 0 auto 10px;
+}
+
 .card-img-top {
     /*width: 100%;*/
     /*height: 30rem;*/
     object-fit: scale-down;
 }
+
+#IntroText {
+    text-align: center;
+}
+
 /*.card-img-top {*/
 /*    width: content-box;*/
 /*    height: content-box;*/
