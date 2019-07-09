@@ -1,0 +1,27 @@
+.card {
+    width: 50rem;
+    height: 40rem;
+    /* Added */
+    float: none; /* Added */
+    /* Added */
+    margin: 0 auto 10px;
+    /*size: auto;*/
+}
+
+.card-img-top {
+    width: content-box;
+    height: content-box;
+    object-fit: cover;
+    margin: auto;
+}
+
+/*.card-img-top{*/
+/*    width: 50%;*/
+/*    height: 50%;*/
+/*    alignment: center;*/
+/*}*/
+/*.card-body{*/
+/*    width: 50%;*/
+/*    height: 50%;*/
+/*    alignment: center;*/
+/*}*/

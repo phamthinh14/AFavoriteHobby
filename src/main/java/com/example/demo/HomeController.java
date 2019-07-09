@@ -16,4 +16,10 @@ public class HomeController {
         //Tra ve cai HTML name file thi no se bat cai HTML file do cho minh
         return "HistoryPage";
     }
+
+    @RequestMapping("/dota1")
+    public String dota1Page() {
+        //Tra ve cai HTML name file thi no se bat cai HTML file do cho minh
+        return "Dota1";
+    }
 }
