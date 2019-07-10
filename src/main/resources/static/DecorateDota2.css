@@ -1,3 +1,6 @@
+body {
+    background-image: url("https://res.cloudinary.com/dzk3cvgwt/image/upload/v1562765385/b33a11afdff2ef2e1d7502b8d2df0fe9d1efd593_yjgaaf.jpg");
+}
 .card-1 {
     width: 50rem;
     height: 40rem;
@@ -5,6 +8,7 @@
     float: none; /* Added */
     /* Added */
     margin: 0 auto 10px;
+    font-family: 'Nunito', sans-serif;
 }
 
 .card-2 {
@@ -14,6 +18,7 @@
     float: none; /* Added */
     /* Added */
     margin: 0 auto 10px;
+    font-family: 'Nunito', sans-serif;
 }
 
 .card-3 {
@@ -23,6 +28,7 @@
     float: none; /* Added */
     /* Added */
     margin: 0 auto 10px;
+    font-family: 'Nunito', sans-serif;
 }
 
 .card-img-top {
@@ -33,4 +39,6 @@
 
 #IntroText {
     text-align: center;
+    font-family: 'Nunito', sans-serif;
+    color: white;
 }

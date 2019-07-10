@@ -1,7 +1,18 @@
+body {
+    background-image: url("https://res.cloudinary.com/dzk3cvgwt/image/upload/v1562765385/b33a11afdff2ef2e1d7502b8d2df0fe9d1efd593_yjgaaf.jpg");
+}
+
+#timelineIntro {
+    color: white;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+
 .timeline {
     list-style: none;
     padding: 20px 0 20px;
     position: relative;
+    color: white;
 }
 
 .timeline:before {
@@ -134,16 +145,21 @@
 
 .timeline-title {
     margin-top: 0;
-    color: inherit;
+    color: white;
+    font-family: 'Nunito', sans-serif;
 }
 
 .timeline-body > p,
 .timeline-body > ul {
     margin-bottom: 0;
     text-align: justify;
+    color: white;
+    font-family: 'Nunito', sans-serif;
 }
 
 .timeline-body > p + p {
     margin-top: 5px;
     text-align: justify;
+    color: white;
+    font-family: 'Nunito', sans-serif;
 }

@@ -11,7 +11,7 @@
               integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
               crossorigin="anonymous">
 
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:700|Nunito&display=swap" rel="stylesheet">
         <link rel="stylesheet"
               href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -26,12 +26,20 @@
     </th:block>
 
     <style>
+        body {
+            background-image: url("https://res.cloudinary.com/dzk3cvgwt/image/upload/v1562765385/b33a11afdff2ef2e1d7502b8d2df0fe9d1efd593_yjgaaf.jpg");
+        }
+
         #Hook {
             text-align: center;
+            color: white;
+            font-family: 'Nunito', sans-serif;
         }
 
         .introduction {
             text-align: center;
+            color: white;
+            font-family: 'Nunito', sans-serif;
         }
 
         .bd-example {
@@ -46,8 +54,8 @@
         .carousel-text {
             color: black;
             background-color: white;
+            font-family: 'Nunito', sans-serif;
         }
-
 
 
     </style>
@@ -58,7 +66,7 @@
 
 <!--Nav Bar-->
 <th:block th:fragment="navlinks">
-    <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd; font-family: 'Merriweather Sans', sans-serif;">
         <ul class="nav justify-content-center">
             <li class="nav-item">
                 <a class="nav-link active" href="http://localhost:8080">Home</a>
@@ -84,7 +92,7 @@
         </ul>
         <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <button class="btn btn-outline-primary" type="submit">Search</button>
         </form>
     </nav>
     <br>
